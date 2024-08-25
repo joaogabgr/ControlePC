@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  width: calc(50% - 10px); /* Ajusta os botões para caberem em uma linha */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.volume-control {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+input[type="range"] {
+  width: 100%; /* Ajusta a largura do controle de volume para a tela */
+  max-width: 300px;
+  margin: 0 auto; /* Centraliza o controle de volume */
+}
